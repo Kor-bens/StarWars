@@ -1,0 +1,758 @@
+body{
+    margin: 0;
+    padding:0;
+}
+
+@font-face {
+    font-family: "pix";
+    src: url(font-family/PressStart2P-Regular.ttf);
+}
+
+
+#miniperso {
+    width: 20vw;
+    margin-top: 2vh;
+    
+}
+
+.perso {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 15px;
+    width: 18.729vw;
+}
+/* img {
+    border: 1px solid rgb(198, 20, 20);
+    background-color: red;
+} */
+
+#logo-strom {
+    width: 5vw;
+}
+
+#casque1 {
+    width: 3.5vw;
+}
+
+.container{
+    display: grid;
+    grid-template-columns:  100%;
+}
+
+#menu_checkbox{
+ display: none;
+ height: none;
+
+}
+
+.nav{
+    display: grid;
+    grid-template-columns: 25% 75%;
+    background-image: url(images/fancy-pants.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment:fixed;
+    background-size: cover;
+
+
+}
+
+
+
+.logo{
+    display: grid;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+    margin-top: 2vh;
+}
+
+
+.text-logo {
+    font-size: 2.2vmin;
+    font-family: 'pix';
+color: white;
+text-decoration: none;
+list-style-type: none;
+margin-top: 1vh;
+}
+.block-logo a{
+    text-decoration: none;
+}
+
+
+.menu{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.liste-menu{
+    margin-right: 1.2vw;
+}
+.titre-border-r{
+    line-height: 1.5;
+    color: rgb(255, 255, 255);
+   
+}
+.titre-border-b{
+line-height:1.5 ;
+    color: rgb(255, 255, 255);
+
+}
+
+.titre-liste-menu-r{
+    border-bottom: 5px solid red;
+    font-size: 1.2em;
+  color: white;
+  font-weight: bold;
+  font-family: "pix";
+  margin-bottom: 2.5vh;
+}
+
+.titre-liste-menu{
+    font-weight: bold;
+    font-family: "pix";
+    margin-bottom: 2.5vh;
+    border-bottom: 5px solid #b4e4f7;
+    font-size: 1.2em;
+  color: white;
+}
+.menu li{
+list-style-type: none;
+}
+.menu a{
+    text-decoration: none;
+}
+.text-liste-menu {
+    font-family: sans-serif;
+    text-align: start;
+    font-size: 1em;
+    margin-top: 1vh;
+}
+.text-liste-menu a{
+    color: white;
+}
+
+hr {
+    height: 0.1vh;
+    background-color: #e2dedf;
+    border: none;
+}
+
+.trait {
+    margin-top: 0.1vh;
+    margin-bottom: 0.1vh;
+}
+
+.section{
+    display: grid;
+    background-image: url(images/WallpaperDog.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    grid-template-columns: repeat(4,25%);
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    height: 66vh;
+
+}
+
+.head{
+    background: url(images/fancy-pants.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+
+.head p{
+    font-family: 'pix';
+    color: white;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: ;
+    font-size: 2.3vmin;
+    line-height: 4vmin;
+    padding: 3.3%;
+}
+
+.main{
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    display: grid;
+    grid-template-columns: 24.8% 26% 49.2%;
+}
+
+.block-main-1{
+    border: 1px solid rgb(203, 197, 197);
+    display: flex;
+    flex-direction: column;
+    padding-left: 4%;
+    padding-right: 3%;
+    margin-left: 10%;
+}
+.block-main-1 p{
+    margin-top: 3vh;
+}
+.read{
+    margin-top: 2vh;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.block-main-2{
+    margin-left: 6%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.block-main-2 i{
+    margin-top: 1vh;
+}
+.block-main-milieu p{
+    justify-content: flex-start;
+}
+.block-main-2 p{
+    margin-bottom: 9vh;
+}
+
+.block-main-3{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2%;
+
+}
+.video iframe{
+    margin-top: 1vh;
+    width: 45.3vw;
+     height: 26vw;
+}
+.titre-block-main{
+        color: #f66801;
+        font-size: 3.5vmin;
+        font-weight: 500;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-bottom: -0.5vh;
+}
+.text-block-main {
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+i {
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.8vmin;
+    margin-top: 1vh;
+    font-weight: 100;
+}
+
+.footer{
+    background-image: url(images/WallpaperDog.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;   
+     display: grid;
+    grid-template-columns: repeat(4,25%);
+    /* height: 28.8vh; */
+    
+}
+
+.block-footer{
+    padding: 1.2vw;
+}
+
+
+.block-footer h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    color: white;
+    /* margin-bottom: -1vh; */
+    line-height: 0;
+}
+.titre1-block-footer{
+        line-height: 0;
+
+}
+.titre3-block-footer{
+    /* margin-bottom: 1vh; */
+    line-height: 0;
+
+}
+
+.block-footer ul{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    color: white;
+    list-style-type: none;
+    text-decoration: none;
+    width: 13vw;
+    padding: 0;    
+    margin-left: 0.3vw;
+}
+.block-footer i{
+    color: white;
+}
+
+.block-footer ul li{
+    padding-right: 10px;
+    
+}
+
+.block-footer a{
+    text-decoration: none;
+    color: white;
+}
+
+.map iframe{
+    width: 15.7vw;
+    height: 7.9vw;
+}
+form{
+display: flex;
+flex-direction: column;
+
+}
+
+label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    color: white;
+    margin-bottom: 0.5vh;
+}
+
+
+#mail{
+    width: 20.9vw;
+    height: 3.5vh;
+    border-radius: 5px;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 1vh;
+}
+#subject{
+    width: 20.9vw;
+    height: 4.5vh;
+    border-radius: 5px;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+#subject::placeholder{
+
+}
+
+#button{
+    margin-top: 1vh;
+    width: 4vw;
+  height: 3.5vh;
+  margin-bottom: 0;
+  border-radius: 6px;
+  font-size: 0.8em;
+  background-color: white;
+}
+
+#button:hover{
+    background-color: #45a049;
+    cursor: pointer;
+    color: white;
+}
+
+
+#casque1{
+height: 18vh;
+width: 3.7vw;
+margin-right: 0.18vw;
+}
+#casque2{
+    height: 18.3vh;
+    width: 3.9vw;
+}
+
+
+@media (min-width: 901px) and (max-width: 1077px){
+ 
+
+
+.footer{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-gap: 1vw;
+    padding: 3vw;
+
+}
+
+.block-footer{
+    display: grid;
+flex-direction: row;
+}
+
+.block-footer {
+    line-height: 1;
+}
+
+.map iframe{
+    width:23vw;
+    height: 20vw;
+    margin-bottom: 12vh;
+}
+
+.block-footer ul{
+    width: 20vw;
+    margin-bottom: 20vh;
+}
+
+#casque1{
+    margin-top: 5vh;
+width: 8vw;
+height: ;
+}
+#casque2{
+    width: 8.9vw;
+    height: ;
+    margin-top: 0.5vh;
+}
+
+form{
+    margin-bottom: 12vh;
+    
+}
+
+#button{
+    width: 9vw;
+    
+}
+   
+}
+
+@media (min-width: 600px) and (max-width: 900px) {
+.nav{
+    background: url(images/fancy-pants.jpg);
+    align-items: center;
+    height: 24vh;
+}
+
+#logo-strom{
+    width: 12.5vw;
+}
+.logo{
+    margin-left: 5vw;
+    display: flex;
+    align-items: flex-end;
+    height: 24vh;
+    margin-top: -1.5vh;
+}
+
+.text-logo{
+    font-size: 2.5vmin;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+
+.menu{
+    display: flex;
+    align-content: center;
+    align-items: flex-start ;
+    height: 24vh;
+}
+
+.titre-liste-menu-r{
+    font-size:0.9em;
+}
+.titre-liste-menu{
+    font-size:0.9em;
+
+}
+.text-liste-menu{
+    font-size: 0.8em;
+    
+}
+.liste-menu{
+    margin-right: 2vw;
+    margin-left: 10px;
+    padding: 0;
+}
+
+.liste-menu ul{
+    margin-left: 0;
+}
+
+    
+.section{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: auto;
+    grid-gap: 5em;
+    padding: 5.8vh;
+}
+
+.perso{
+    width: 38.8vw;
+}
+
+.head{
+    height: 43vh;
+    text-align:center;
+    display: flex;
+
+}
+.head p{
+   line-height:2;
+   font-size: 1.3em;
+}
+
+.main{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+    padding: 32px;
+    margin-top: 0;
+    margin-bottom: -30px;
+}
+
+
+
+.block-main-1{
+    grid-column: 1/2;
+    width:37.6vw;
+   margin-left: 8.7vw;
+   height: 52vh;
+   margin-left: 0;
+}
+
+.block-main-1 p{
+    width:38vw;
+    padding: 0;
+}
+#miniperso {
+    width: 37.5vw;
+    height: 22vh;
+    margin-top: 2vh;
+    
+}
+.block-main-2{
+    grid-column: 2/4;
+    width: 40vw;
+    margin-left: 0;
+}
+.block-main-3{
+    grid-column: 1/4;
+    grid-row: 1fr 1fr;
+    margin-left: 0;
+}
+.titre-block-main{
+    font-size: 1.9em;
+}
+i{
+    font-size: 1em;
+}
+.video iframe{
+     width:86.8vw;
+     height:50vw;
+    }
+
+    .footer{
+height: auto;
+display: grid;
+grid-template-columns: repeat(2,50%);
+    }
+
+    .block-footer{
+     margin-left: 0;
+     margin-top: 0;
+     padding: 4.5vw;
+    }
+
+.titre1-block-footer{
+    margin-top: 0;
+}
+h3{
+    margin-top: 0;
+}
+
+    .block-footer ul{
+        width: 28vw;
+        padding: 0;
+        margin-left: 0.3;
+    }
+
+
+    #mail, #subject{
+        width: 40.3vw;
+       
+    }
+    
+    #subject::placeholder{
+    
+    }
+    
+    #button{
+        margin-top: 1vh;
+        width: 10vw;
+      height: 3.8vh;
+    }
+    
+    #button:hover{
+        background-color: #45a049;
+        cursor: pointer;
+        color: white;
+    }
+    
+    
+    #casque1{
+    height: 19.5vh;
+    width: 9.5vw;
+    }
+    #casque2{
+        height: 19.9vh;
+        width: 9.8vw;
+    }
+
+    .map iframe{
+        width: 39vw;
+        height: 19.5vw;
+    }
+
+}
+
+@media (min-width: 320px) and (max-width: 599px){
+    .nav{
+        background: url(images/fancy-pants.jpg);
+        align-items: center;
+        height: 24vh;
+        display: grid;
+        grid-template-columns: 100%;
+
+    }
+    
+
+    .menu{
+        display: none;
+    }
+
+    #logo-strom{
+        width: 18vw;
+    }
+    .logo{
+        display: flex;
+margin-bottom: 2vh;
+        text-align: center;
+    }
+    .text-logo{
+        font-size: 1.5em;
+    }
+
+    .section{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        padding: 4vw;
+        grid-gap: 10vh;
+    }
+    .perso{
+        width: 83vw;
+    }
+
+    .head{
+        padding: 9vw;
+    }
+
+    .head p{
+font-size: 1.2em;
+line-height: 2;
+    }
+
+    #miniperso{
+        width: 77vw;
+    }
+    .main{
+        display: grid;
+grid-template-columns: 100%;        
+justify-items: center;
+    }
+    .block-main-1{
+        margin: 0;
+    }
+
+    .block-main-1 p{
+        width: 77vw;
+    }
+    .block-main-2 p{
+        margin-bottom: 2vh;
+    }
+    .read{
+margin-bottom: 2vh;
+    }
+    .block-main-2 i{
+        margin-top: 1vh;
+        display: flex;
+    }
+    .block-main-2{
+        margin-top: 4.5vh;
+        display: flex;
+        margin-left: 3.8vw;
+        padding-left: 4%;
+        padding-right: 3%;    }
+    .block-main-3{
+        margin-top: 3vh;
+        margin-left: 0;
+    }
+    
+    .block-main i{
+       
+    }
+
+    .titre-block-main{
+        font-size: 2em;
+    }
+    i{
+        font-size:1em;
+    }
+
+    .video iframe{
+        width: 85vw;
+        height: 48vw;
+    }
+
+    .footer{
+        display: grid;
+        grid-template-columns: 100%;
+    }
+    .block-footer{
+        padding: 5vw;
+    }
+
+    .block-footer ul{
+        width: 40vw;
+    }
+
+    .map iframe{
+        width: 50vw;
+        height: 30vw;
+    }
+
+    #mail, #subject{
+        width: 100%;
+    }
+    #button{
+        width: 12vw;
+    }
+
+    #casque1{
+width: 12vw;
+height: 20vh;
+    }
+
+    #casque2{
+width: 13vw;
+height: 20.5vh;
+    }
+
+}
