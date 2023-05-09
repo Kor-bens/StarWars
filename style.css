@@ -38,11 +38,7 @@ body{
     grid-template-columns:  100%;
 }
 
-#menu_checkbox{
- display: none;
- height: none;
 
-}
 
 .nav{
     display: grid;
@@ -175,7 +171,6 @@ hr {
     display: flex;
     align-items: center;
     text-align: center;
-    width: ;
     font-size: 2.3vmin;
     line-height: 4vmin;
     padding: 3.3%;
@@ -410,11 +405,9 @@ flex-direction: row;
 #casque1{
     margin-top: 5vh;
 width: 8vw;
-height: ;
 }
 #casque2{
     width: 8.9vw;
-    height: ;
     margin-top: 0.5vh;
 }
 
@@ -544,7 +537,6 @@ form{
 }
 .block-main-3{
     grid-column: 1/4;
-    grid-row: 1fr 1fr;
     margin-left: 0;
 }
 .titre-block-main{
@@ -580,7 +572,7 @@ h3{
     .block-footer ul{
         width: 28vw;
         padding: 0;
-        margin-left: 0.3;
+        margin-left: 0.3vw;
     }
 
 
